@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.upc.servlets.Test</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+    <!-- 李安-->
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>reportHireEServlet</servlet-name>
+    <servlet-class>com.upc.servlets.reportHireEServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>reportLeftEServlet</servlet-name>
+    <servlet-class>com.upc.servlets.reportLeftEServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HireEServlet</servlet-name>
+    <servlet-class>com.upc.servlets.HireEServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JobMoveServlet</servlet-name>
+    <servlet-class>com.upc.servlets.JobMoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeptMoveServlet</servlet-name>
+    <servlet-class>com.upc.servlets.DeptMoveServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>reportHireEServlet</servlet-name>
+    <url-pattern>/servlet/reportHireEServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>reportLeftEServlet</servlet-name>
+    <url-pattern>/servlet/reportLeftEServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HireEServlet</servlet-name>
+    <url-pattern>/servlet/HireEServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobMoveServlet</servlet-name>
+    <url-pattern>/servlet/JobMoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptMoveServlet</servlet-name>
+    <url-pattern>/servlet/DeptMoveServlet</url-pattern>
+  </servlet-mapping>
+    
+    <!-- 李安-->    
+	<!-- 王金玲-->
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteDeptServlet</servlet-name>
+    <servlet-class>com.upc.servlets.DeleteDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteJobServlet</servlet-name>
+    <servlet-class>com.upc.servlets.DeleteJobServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDeptByDept_noServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetDeptByDept_noServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJobByJob_noServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetJobByJob_noServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertDeptServlet</servlet-name>
+    <servlet-class>com.upc.servlets.InsertDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertJobServlet</servlet-name>
+    <servlet-class>com.upc.servlets.InsertJobServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllDeptsServlet</servlet-name>
+    <servlet-class>com.upc.servlets.QueryAllDeptsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllJobsServlet</servlet-name>
+    <servlet-class>com.upc.servlets.QueryAllJobsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateDeptServlet</servlet-name>
+    <servlet-class>com.upc.servlets.UpdateDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateJobServlet</servlet-name>
+    <servlet-class>com.upc.servlets.UpdateJobServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDeptByServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetDeptByServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJobByServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetJobByServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SesrchDeptSevlet</servlet-name>
+    <servlet-class>com.upc.servlets.SesrchDeptSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEmployeeByDept</servlet-name>
+    <servlet-class>com.upc.servlets.GetEmployeeByDept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEmployeeByJob</servlet-name>
+    <servlet-class>com.upc.servlets.GetEmployeeByJob</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DeleteDeptServlet</servlet-name>
+    <url-pattern>/servlet/DeleteDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteJobServlet</servlet-name>
+    <url-pattern>/servlet/DeleteJobServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDeptByDept_noServlet</servlet-name>
+    <url-pattern>/servlet/GetDeptByDept_noServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJobByJob_noServlet</servlet-name>
+    <url-pattern>/servlet/GetJobByJob_noServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertDeptServlet</servlet-name>
+    <url-pattern>/servlet/InsertDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertJobServlet</servlet-name>
+    <url-pattern>/servlet/InsertJobServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllDeptsServlet</servlet-name>
+    <url-pattern>/servlet/QueryAllDeptsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllJobsServlet</servlet-name>
+    <url-pattern>/servlet/QueryAllJobsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateDeptServlet</servlet-name>
+    <url-pattern>/servlet/UpdateDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateJobServlet</servlet-name>
+    <url-pattern>/servlet/UpdateJobServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDeptByServlet</servlet-name>
+    <url-pattern>/servlet/GetDeptByServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJobByServlet</servlet-name>
+    <url-pattern>/servlet/GetJobByServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SesrchDeptSevlet</servlet-name>
+    <url-pattern>/servlet/SesrchDeptSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmployeeByDept</servlet-name>
+    <url-pattern>/servlet/GetEmployeeByDept</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GetEmployeeByJob</servlet-name>
+    <url-pattern>/servlet/GetEmployeeByJob</url-pattern>
+  </servlet-mapping>
+	 
+	<!-- 王金玲-->        
+    <!-- 陈鹏 -->
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllEmployeesServlet</servlet-name>
+    <servlet-class>com.upc.servlets.QueryAllEmployeesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertEmployeeServlet</servlet-name>
+    <servlet-class>com.upc.servlets.InsertEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <servlet-class>com.upc.servlets.DeleteEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEmployeeByEmployee_noServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetEmployeeByEmployee_noServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateEmployeeServlet</servlet-name>
+    <servlet-class>com.upc.servlets.UpdateEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOut_employeeByEmployee_noServlet</servlet-name>
+    <servlet-class>com.upc.servlets.GetOut_employeeByEmployee_noServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertOut_employeeServlet</servlet-name>
+    <servlet-class>com.upc.servlets.InsertOut_employeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllOut_employeesServlet</servlet-name>
+    <servlet-class>com.upc.servlets.QueryAllOut_employeesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchOutServlet</servlet-name>
+    <servlet-class>com.upc.servlets.SearchOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchInServlet</servlet-name>
+    <servlet-class>com.upc.servlets.SearchInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryAllEmployeesServlet</servlet-name>
+    <url-pattern>/servlet/QueryAllEmployeesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertEmployeeServlet</servlet-name>
+    <url-pattern>/servlet/InsertEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <url-pattern>/servlet/DeleteEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmployeeByEmployee_noServlet</servlet-name>
+    <url-pattern>/servlet/GetEmployeeByEmployee_noServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmployeeServlet</servlet-name>
+    <url-pattern>/servlet/UpdateEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOut_employeeByEmployee_noServlet</servlet-name>
+    <url-pattern>/servlet/GetOut_employeeByEmployee_noServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertOut_employeeServlet</servlet-name>
+    <url-pattern>/servlet/InsertOut_employeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllOut_employeesServlet</servlet-name>
+    <url-pattern>/servlet/QueryAllOut_employeesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchOutServlet</servlet-name>
+    <url-pattern>/servlet/SearchOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchInServlet</servlet-name>
+    <url-pattern>/servlet/SearchInServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet-mapping>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <url-pattern>/DeleteEmployeeServlet</url-pattern>
+  </servlet-mapping>
+    <!-- 陈鹏 -->
+    <!-- 李琴 -->
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deptadjustselectServlet</servlet-name>
+    <servlet-class>com.upc.servlets.deptadjustselectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectservlet</servlet-name>
+    <servlet-class>com.upc.servlets.selectservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertservlet</servlet-name>
+    <servlet-class>com.upc.servlets.insertservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deptadjustselect</servlet-name>
+    <servlet-class>com.upc.servlets.deptadjustselect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatedept</servlet-name>
+    <servlet-class>com.upc.servlets.updatedept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>com.upc.servlets.loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobadjustselect</servlet-name>
+    <servlet-class>com.upc.servlets.jobadjustselect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobadjustselectServlet</servlet-name>
+    <servlet-class>com.upc.servlets.jobadjustselectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertjobservlet</servlet-name>
+    <servlet-class>com.upc.servlets.insertjobservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectjobservlet</servlet-name>
+    <servlet-class>com.upc.servlets.selectjobservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changejob</servlet-name>
+    <servlet-class>changejob</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>deptadjustselectServlet</servlet-name>
+    <url-pattern>/servlet/deptadjustselectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectservlet</servlet-name>
+    <url-pattern>/servlet/selectservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertservlet</servlet-name>
+    <url-pattern>/servlet/insertservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deptadjustselect</servlet-name>
+    <url-pattern>/servlet/deptadjustselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatedept</servlet-name>
+    <url-pattern>/servlet/updatedept</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/servlet/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobadjustselect</servlet-name>
+    <url-pattern>/servlet/jobadjustselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobadjustselectServlet</servlet-name>
+    <url-pattern>/servlet/jobadjustselectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertjobservlet</servlet-name>
+    <url-pattern>/servlet/insertjobservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectjobservlet</servlet-name>
+    <url-pattern>/servlet/selectjobservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changejob</servlet-name>
+    <url-pattern>/servlet/changejob</url-pattern>
+  </servlet-mapping>
+    <!-- 李琴 -->
+</web-app>
